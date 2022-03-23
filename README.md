@@ -1,5 +1,5 @@
 # solarPV
-Contains solar photovoltaic electricity generation data analytics. The R code and data relate to the Clean Energy Regulator (CER) data, [which can be found here] (http://www.cleanenergyregulator.gov.au/RET/Forms-and-resources/Postcode-data-for-small-scale-installations/historical-postcode-data-for-small-scale-installations).
+Contains solar photovoltaic electricity generation data analytics. The R code and data relate to the Clean Energy Regulator (CER) data, [which can be found here](http://www.cleanenergyregulator.gov.au/RET/Forms-and-resources/Postcode-data-for-small-scale-installations/historical-postcode-data-for-small-scale-installations).
 
 The compiled CER data corresponds to the South West Interconnected System (SWIS) region. [More information about the SWIS can be found here](https://www.infrastructureaustralia.gov.au/map/south-west-interconnected-system-transformation#:~:text=Western%20Australia's%20main%20electricity%20network,interconnections%20to%20other%20transmission%20systems).
 
