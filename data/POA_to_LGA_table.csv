@@ -1,0 +1,454 @@
+﻿POA_CODE_2021,LGA_NAME_2021,Weight
+6000,Perth,0.533018868
+6000,Vincent,0.466981132
+6003,Perth,0.467741935
+6003,Vincent,0.532258065
+6004,Perth,0.973509934
+6004,Vincent,0.026490066
+6005,Perth,0.668918919
+6005,Vincent,0.331081081
+6006,Vincent,1
+6007,Cambridge,0.53125
+6007,Vincent,0.46875
+6008,Cambridge,0.004115226
+6008,Nedlands,0.049382716
+6008,Subiaco,0.946502058
+6009,Nedlands,0.734439834
+6009,Perth,0.265560166
+6010,Cambridge,0.032258065
+6010,Claremont,0.629032258
+6010,Cottesloe,0.012096774
+6010,Nedlands,0.326612903
+6011,Cottesloe,0.804511278
+6011,Peppermint Grove,0.195488722
+6012,Mosman Park,1
+6014,Cambridge,0.765873016
+6014,Nedlands,0.051587302
+6014,Stirling,0.103174603
+6014,Subiaco,0.079365079
+6015,Cambridge,1
+6016,Stirling,0.204918033
+6016,Vincent,0.795081967
+6017,Stirling,0.991666667
+6017,Vincent,0.008333333
+6018,Stirling,1
+6019,Cambridge,0.009803922
+6019,Stirling,0.990196078
+6020,Joondalup,0.430232558
+6020,Stirling,0.569767442
+6021,Stirling,1
+6022,Stirling,1
+6023,Joondalup,1
+6024,Joondalup,1
+6025,Joondalup,1
+6026,Joondalup,0.971119134
+6026,Wanneroo,0.028880866
+6027,Joondalup,1
+6028,Joondalup,1
+6029,Stirling,1
+6030,Wanneroo,1
+6031,Wanneroo,1
+6032,Wanneroo,1
+6033,Wanneroo,1
+6034,Wanneroo,1
+6035,Wanneroo,1
+6036,Wanneroo,1
+6037,Wanneroo,1
+6038,Wanneroo,1
+6041,Gingin,1
+6042,Gingin,1
+6043,Gingin,1
+6044,Dandaragan,0.029850746
+6044,Gingin,0.970149254
+6050,Bayswater,0.044554455
+6050,Stirling,0.683168317
+6050,Vincent,0.272277228
+6051,Bayswater,1
+6052,Bayswater,0.451851852
+6052,Stirling,0.548148148
+6053,Bayswater,1
+6054,Bassendean,0.756013746
+6054,Swan,0.243986254
+6055,Belmont,0.00530504
+6055,Swan,0.99469496
+6056,Kalamunda,0.00155521
+6056,Mundaring,0.34992224
+6056,Swan,0.648522551
+6057,Kalamunda,0.994535519
+6057,Swan,0.005464481
+6058,Kalamunda,1
+6059,Bayswater,0.003246753
+6059,Stirling,0.996753247
+6060,Stirling,1
+6061,Stirling,1
+6062,Bayswater,1
+6063,Swan,1
+6064,Wanneroo,1
+6065,Wanneroo,1
+6066,Swan,1
+6067,Swan,1
+6068,Swan,1
+6069,Swan,1
+6070,Mundaring,1
+6071,Mundaring,1
+6072,Mundaring,1
+6073,Mundaring,1
+6074,Mundaring,1
+6076,Kalamunda,1
+6077,Wanneroo,1
+6078,Wanneroo,1
+6079,Swan,1
+6081,Mundaring,1
+6082,Mundaring,1
+6083,Swan,0.788461538
+6083,Toodyay,0.211538462
+6084,Chittering,0.28440367
+6084,Swan,0.71559633
+6090,Swan,1
+6100,Victoria Park,1
+6101,Victoria Park,1
+6102,Canning,0.770949721
+6102,Victoria Park,0.229050279
+6103,Belmont,1
+6104,Belmont,1
+6105,Belmont,0.956709957
+6105,Kalamunda,0.008658009
+6105,Swan,0.034632035
+6106,Canning,0.861111111
+6106,Victoria Park,0.138888889
+6107,Canning,0.579044118
+6107,Gosnells,0.318014706
+6107,Kalamunda,0.102941176
+6108,Gosnells,1
+6109,Gosnells,1
+6110,Gosnells,1
+6111,Armadale,0.991044776
+6111,Kalamunda,0.008955224
+6112,Armadale,1
+6121,Serpentine-Jarrahdale,1
+6122,Serpentine-Jarrahdale,1
+6123,Serpentine-Jarrahdale,1
+6124,Serpentine-Jarrahdale,1
+6125,Serpentine-Jarrahdale,1
+6126,Murray,0.1
+6126,Serpentine-Jarrahdale,0.9
+6147,Canning,0.635359116
+6147,Gosnells,0.364640884
+6148,Canning,1
+6149,Canning,0.034825871
+6149,Cockburn,0.109452736
+6149,Melville,0.855721393
+6150,Melville,1
+6151,South Perth,0.988593156
+6151,Victoria Park,0.011406844
+6152,South Perth,1
+6153,Melville,1
+6154,Melville,1
+6155,Canning,0.64
+6155,Gosnells,0.36
+6156,Melville,1
+6157,Melville,1
+6158,East Fremantle,1
+6159,Fremantle,1
+6160,Fremantle,1
+6162,Fremantle,1
+6163,Cockburn,0.729194188
+6163,Fremantle,0.121532365
+6163,Melville,0.149273448
+6164,Cockburn,1
+6165,Kwinana,1
+6166,Cockburn,1
+6167,Kwinana,1
+6168,Cockburn,0.004484305
+6168,Rockingham,0.995515695
+6169,Rockingham,1
+6170,Kwinana,1
+6171,Rockingham,1
+6172,Rockingham,1
+6173,Rockingham,1
+6174,Rockingham,1
+6175,Rockingham,1
+6176,Rockingham,1
+6180,Mandurah,1
+6181,Murray,1
+6182,Rockingham,1
+6207,Murray,1
+6208,Murray,1
+6209,Murray,1
+6210,Mandurah,1
+6211,Mandurah,0.988095238
+6211,Waroona,0.011904762
+6213,Murray,1
+6214,Murray,1
+6215,Waroona,1
+6218,Harvey,1
+6219,Harvey,1
+6220,Harvey,1
+6221,Collie,0.153846154
+6221,Harvey,0.846153846
+6223,Harvey,1
+6224,Harvey,1
+6225,Boyup Brook,0.020547945
+6225,Collie,0.907534247
+6225,Donnybrook-Balingup,0.051369863
+6225,West Arthur,0.020547945
+6226,Harvey,1
+6227,Dardanup,1
+6228,Dardanup,1
+6229,Bunbury,0.818181818
+6229,Dardanup,0.181818182
+6230,Bunbury,0.825242718
+6230,Capel,0.169902913
+6230,Dardanup,0.004854369
+6232,Dardanup,1
+6233,Dardanup,0.038567493
+6233,Harvey,0.961432507
+6236,Dardanup,1
+6237,Capel,1
+6239,Donnybrook-Balingup,1
+6240,Donnybrook-Balingup,1
+6243,Boyup Brook,0.545454545
+6243,Donnybrook-Balingup,0.454545455
+6244,Boyup Brook,0.95890411
+6244,West Arthur,0.04109589
+6251,Donnybrook-Balingup,1
+6252,Donnybrook-Balingup,1
+6253,Donnybrook-Balingup,1
+6254,Bridgetown-Greenbushes,1
+6255,Boyup Brook,0.029850746
+6255,Bridgetown-Greenbushes,0.970149254
+6256,Bridgetown-Greenbushes,1
+6258,Manjimup,0.989949749
+6258,Nannup,0.010050251
+6260,Manjimup,0.853932584
+6260,Nannup,0.146067416
+6262,Manjimup,1
+6271,Capel,1
+6275,Busselton,0.056818182
+6275,Donnybrook-Balingup,0.034090909
+6275,Nannup,0.909090909
+6280,Busselton,0.988372093
+6280,Capel,0.011627907
+6281,Busselton,1
+6282,Busselton,1
+6284,Augusta Margaret River,1
+6285,Augusta Margaret River,0.990430622
+6285,Nannup,0.009569378
+6286,Augusta Margaret River,1
+6288,Augusta Margaret River,1
+6290,Augusta Margaret River,1
+6302,Beverley,0.047244094
+6302,York,0.952755906
+6304,Beverley,1
+6306,Brookton,0.953125
+6306,Corrigin,0.046875
+6308,Pingelly,0.7
+6308,Wandering,0.3
+6309,Cuballing,1
+6311,Cuballing,1
+6312,Narrogin,0.952054795
+6312,Wickepin,0.047945205
+6313,Narrogin,1
+6315,Dumbleyung,0.076271186
+6315,Wagin,0.898305085
+6315,West Arthur,0.025423729
+6316,Woodanilling,1
+6317,Dumbleyung,0.042682927
+6317,Katanning,0.957317073
+6318,Broomehill-Tambellup,1
+6320,Broomehill-Tambellup,1
+6321,Cranbrook,1
+6322,Cranbrook,1
+6323,Plantagenet,1
+6324,Albany,0.067567568
+6324,Plantagenet,0.932432432
+6326,Plantagenet,1
+6327,Albany,1
+6328,Albany,1
+6330,Albany,1
+6333,Denmark,1
+6335,Gnowangerup,1
+6336,Gnowangerup,0.761904762
+6336,Jerramungup,0.238095238
+6337,Jerramungup,0.962962963
+6337,Ravensthorpe,0.037037037
+6338,Cranbrook,0.029850746
+6338,Gnowangerup,0.179104478
+6338,Jerramungup,0.686567164
+6338,Plantagenet,0.104477612
+6341,Kent,1
+6343,Kent,1
+6346,Jerramungup,0.126760563
+6346,Ravensthorpe,0.873239437
+6348,Ravensthorpe,1
+6350,Dumbleyung,1
+6351,Dumbleyung,1
+6352,Dumbleyung,1
+6353,Dumbleyung,0.108108108
+6353,Lake Grace,0.891891892
+6355,Kulin,0.28125
+6355,Lake Grace,0.71875
+6356,Lake Grace,1
+6357,Kulin,1
+6358,Kondinin,1
+6359,Kondinin,0.774193548
+6359,Kulin,0.225806452
+6361,Wickepin,1
+6363,Kulin,1
+6365,Kulin,1
+6367,Kondinin,1
+6368,Narembeen,1
+6369,Narembeen,1
+6370,Wickepin,1
+6372,Wickepin,1
+6373,Corrigin,1
+6375,Corrigin,1
+6383,Quairading,1
+6384,Quairading,1
+6385,Bruce Rock,1
+6386,Bruce Rock,1
+6390,Boddington,0.970588235
+6390,Wandering,0.029411765
+6391,Boddington,0.114285714
+6391,Williams,0.885714286
+6392,West Arthur,0.913043478
+6392,Williams,0.086956522
+6393,West Arthur,1
+6394,Kojonup,0.823529412
+6394,West Arthur,0.117647059
+6394,Woodanilling,0.058823529
+6395,Kojonup,1
+6396,Cranbrook,1
+6397,Plantagenet,1
+6398,Manjimup,1
+6401,Goomalling,0.053892216
+6401,Northam,0.946107784
+6403,Northam,1
+6405,Cunderdin,1
+6407,Cunderdin,1
+6409,Tammin,1
+6410,Kellerberrin,1
+6411,Kellerberrin,1
+6412,Kellerberrin,1
+6413,Merredin,1
+6414,Merredin,1
+6415,Merredin,1
+6418,Bruce Rock,1
+6419,Bruce Rock,1
+6420,Merredin,0.5
+6420,Narembeen,0.5
+6421,Merredin,0.714285714
+6421,Westonia,0.285714286
+6422,Westonia,1
+6423,Westonia,1
+6424,Yilgarn,1
+6425,Yilgarn,1
+6426,Yilgarn,1
+6427,Yilgarn,1
+6428,Bruce Rock,1
+6429,Coolgardie,1
+6430,Kalgoorlie-Boulder,1
+6431,Kalgoorlie-Boulder,1
+6432,Kalgoorlie-Boulder,1
+6434,Kalgoorlie-Boulder,1
+6436,Menzies,1
+6442,Coolgardie,1
+6443,Coolgardie,0.5
+6443,Dundas,0.5
+6445,Esperance,1
+6450,Ravensthorpe,1
+6460,Goomalling,1
+6461,Dowerin,1
+6462,Dowerin,1
+6463,Wyalkatchem,1
+6465,Dowerin,1
+6466,Wongan-Ballidu,1
+6467,Wongan-Ballidu,1
+6468,Dalwallinu,1
+6470,Koorda,1
+6472,Mount Marshall,1
+6473,Mount Marshall,0.333333333
+6473,Mukinbudin,0.666666667
+6475,Koorda,1
+6476,Mount Marshall,1
+6477,Mount Marshall,1
+6479,Mukinbudin,0.943396226
+6479,Westonia,0.056603774
+6480,Merredin,1
+6484,Yilgarn,1
+6485,Wyalkatchem,1
+6487,Trayning,1
+6488,Trayning,1
+6489,Trayning,1
+6490,Nungarin,1
+6501,Chittering,1
+6502,Chittering,0.961538462
+6502,Toodyay,0.038461538
+6503,Gingin,1
+6504,Chittering,1
+6505,Chittering,1
+6506,Victoria Plains,1
+6507,Dandaragan,1
+6509,Victoria Plains,1
+6510,Moora,0.95890411
+6510,Victoria Plains,0.04109589
+6511,Dandaragan,1
+6512,Moora,1
+6513,Coorow,0.210526316
+6513,Moora,0.789473684
+6514,Carnamah,0.016666667
+6514,Coorow,0.983333333
+6515,Coorow,1
+6516,Dandaragan,1
+6517,Carnamah,1
+6518,Carnamah,0.857142857
+6518,Coorow,0.142857143
+6519,Three Springs,1
+6521,Dandaragan,1
+6522,Mingenew,1
+6525,Irwin,1
+6528,Greater Geraldton,1
+6530,Chapman Valley,0.003738318
+6530,Greater Geraldton,0.996261682
+6532,Chapman Valley,0.292857143
+6532,Greater Geraldton,0.642857143
+6532,Northampton,0.064285714
+6535,Northampton,1
+6536,Northampton,1
+6556,Mundaring,1
+6558,Mundaring,1
+6560,Northam,1
+6562,Northam,1
+6564,Northam,1
+6566,Toodyay,1
+6567,Toodyay,1
+6568,Toodyay,0.285714286
+6568,Victoria Plains,0.714285714
+6569,Victoria Plains,1
+6571,Victoria Plains,1
+6572,Victoria Plains,1
+6574,Moora,1
+6575,Moora,1
+6603,Goomalling,0.017241379
+6603,Wongan-Ballidu,0.982758621
+6605,Wongan-Ballidu,1
+6606,Wongan-Ballidu,1
+6608,Dalwallinu,1
+6609,Dalwallinu,1
+6612,Dalwallinu,0.933333333
+6612,Yalgoo,0.066666667
+6613,Dalwallinu,1
+6614,Perenjori,1
+6616,Perenjori,1
+6620,Perenjori,1
+6623,Morawa,0.96875
+6623,Perenjori,0.03125
+6625,Morawa,1
+6627,Morawa,1
+6628,Greater Geraldton,1
+6630,Greater Geraldton,0.965517241
+6630,Murchison,0.034482759
+6631,Greater Geraldton,1
+6632,Greater Geraldton,1
+6635,Murchison,0.5
+6635,Yalgoo,0.5
