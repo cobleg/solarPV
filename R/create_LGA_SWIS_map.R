@@ -16,7 +16,7 @@ file <- c("LGA_2021_AUST_GDA2020.shp")
 LGA_data <- st_read(file.path(getwd(), subdirectory, file))
 
 # get the SWIS region data
-file <- c("SWIS_boundary2.shp")
+file <- c("WP_licence_boundary.shp")
 SWIS_boundary <- st_read(file.path(getwd(), subdirectory, file))
 st_crs(SWIS_boundary) # check the coordinate reference system (CRS)
 SWIS_boundary <- st_transform(SWIS_boundary, "EPSG:7844") # convert CRS to ensure match
