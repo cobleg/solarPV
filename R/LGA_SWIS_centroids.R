@@ -23,8 +23,8 @@ LGA_SWIS_LAT_LONG <- as.data.frame(LGA_SWIS_centroids)
 library(tidyverse)
 
 LGA_SWIS_CENTROIDS_SEP <- LGA_SWIS_LAT_LONG %>%
-  mutate(Latitude = unlist(map(LGA_SWIS_LAT_LONG$geometry,1)),
-         Longitude = unlist(map(LGA_SWIS_LAT_LONG$geometry,2)))
+  mutate(Latitude = unlist(map(LGA_SWIS_LAT_LONG$geometry,2)),
+         Longitude = unlist(map(LGA_SWIS_LAT_LONG$geometry,1)))
 
 SWIS_LGA_coord <- LGA_SWIS_CENTROIDS_SEP[, (colnames(LGA_SWIS_CENTROIDS_SEP) %in% c("LGA_NAME21","Latitude", "Longitude"))]
 names(SWIS_LGA_coord) <- c("LGA", "Latitude", "Longitude")
