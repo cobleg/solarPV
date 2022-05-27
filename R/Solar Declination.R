@@ -22,3 +22,5 @@ SolarDeclination <- function( DayAngle, parameters = c(a = 0.006918, b = -0.3999
 }
 
 SolarDeclination(DayAngle(seq(1:1461), 365.25))
+
+plot(SolarDeclination(DayAngle(seq(1:365), 365.25)), xlab = " Day of the year",ylab = "Degrees", main = "Solar declination angle")

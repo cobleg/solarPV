@@ -5,7 +5,7 @@
 
 SolarHourAngle <- function( LocalSolarTime )
 {
-  return( 360 / 24 * (LocalSolarTime - 12.5) )
+  return( 360 / 24 * (LocalSolarTime - 12) )
 }
 
 SolarHourAngle(t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE))
