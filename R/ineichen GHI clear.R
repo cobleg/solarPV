@@ -3,7 +3,7 @@
 # Objective: calculate the Ineichen clear skies GHI
 
 GHI_clr <- function( SolarZenithAngle, AirMass, Elevation, parameters = c( a = 5.09e-5, b = 0.868, c = 3.95e-5, d = 0.0387,
-                                                                 e = 8000, f = 1250, g = 0.01, I_0 = 1353, T_L = 3 ) )
+                                                                 e = 8000, f = 1250, g = 0.01, h = 1.8, I_0 = 1353, T_L = 3 ) )
 {
   h_alt = Elevation # in metres above sea level
   
@@ -14,6 +14,7 @@ GHI_clr <- function( SolarZenithAngle, AirMass, Elevation, parameters = c( a = 5
   e = parameters[['e']]
   f = parameters[['f']]
   g = parameters[['g']]
+  h = parameters[['h']]
   
   I_0 = parameters[['I_0']] # Wh/m^2
   T_L = parameters[['T_L']] # Linke Turbidity Index
@@ -24,7 +25,7 @@ GHI_clr <- function( SolarZenithAngle, AirMass, Elevation, parameters = c( a = 5
   f_h1 = exp(-h_alt/e)
   f_h2 = exp(-h_alt/f)
   
-  GHI = c_g1 * I_0 * cos( SolarZenithAngle * pi / 180 ) * exp( -c_g2 * AirMass * ( f_h1 + f_h2 * (T_L - 1 )) * exp(g * AirMass ))
+  GHI = c_g1 * I_0 * cos( SolarZenithAngle * pi / 180 ) * exp( -c_g2 * AirMass * ( f_h1 + f_h2 * (T_L - 1 )) * exp(g * AirMass^h ))
   GHI[GHI<0] <- 0
   return(GHI)
 }
