@@ -4,22 +4,31 @@
 # Definition: day angle is a time index expressed in radians
 # Author: Grant Coble-Neal
 
-DayAngle <-  function(timeframe, daysInYear){
+DayAngle <-  function(timeframe, Interval, daysInYear){
   
   # timeframe expressed as a vector of days e.g. for 1 year, timeframe = {1,2,3,...,365}
   # for 2 years, timeframe = {1,2,3,...,730}
   # daysInYear: function user decides whether the divisor is 365, 366 or 365.25
   
+  # Interval: time division to be used, e.g. 60-minute
+  
+  # create a dictionary of time intervals per day
+  dictionary <- c(24, 48, 96, 228, 1440 ) # number of time intervals per day
+  names(dictionary) <- c('60-minute', '30-minute', '15-minute', '5-minute', '1-minute')
+  td <- unname(dictionary[Interval])
+  
   N = ( timeframe - 1) %% daysInYear
   B = 2 * pi * N/daysInYear
-  return(B)
+  B_pad <- rep(B, each = td)
+  return(B_pad)
 }
 
+Interval = '60-minute'
+dictionary <- c(24, 48, 96, 228, 1440 ) # number of time intervals per day
+names(dictionary) <- c('60-minute', '30-minute', '15-minute', '5-minute', '1-minute')
+td <- unname(dictionary[Interval])
 
-
-
-timeframe = seq(1:730) # two years, assume leap year is not included
-dayAngle1 <- DayAngle(timeframe, 365)
+dayAngle1 <- DayAngle(timeframe = seq(1:365), Interval = '60-minute', daysInYear = 365)
 
 dayAngle2 <- DayAngle(seq(1:1461), 365.25)
 n = ( timeframe - 1 ) %% 365

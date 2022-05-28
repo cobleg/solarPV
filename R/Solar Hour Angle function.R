@@ -5,7 +5,15 @@
 
 SolarHourAngle <- function( LocalSolarTime )
 {
-  return( 360 / 24 * (LocalSolarTime - 12) )
+  # LocalSolarTime: units of measurement is hour
+  # Timezone: units of measurement is hour
+  
+  return( 360 / 24 * (LocalSolarTime - 12.5) )
+  # Units of measurement: degrees
 }
 
-SolarHourAngle(t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE))
+SHA <- SolarHourAngle(t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365)))), DaylightSavingsTime = FALSE))
+
+SHA[1:48]
+plot(SHA[1:(24*2)])
+

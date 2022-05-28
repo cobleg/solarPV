@@ -20,7 +20,16 @@ AirMass <- function( SolarZenithAngle, parameters = c(a = 0.50572, b = 96.07995,
   
 }
 
-dec <- SolarDeclination(DayAngle(seq(1:1461), 365.25))
-SHA <- SolarHourAngle(t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE))
+dec <- SolarDeclination(DayAngle(seq(1:1461), 365))
+SHA <- SolarHourAngle(t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365)))), DaylightSavingsTime = FALSE))
 
-AirMass( SolarZenithAngle( Latitude = -31.95, SolarDeclination = dec, SolarHourAngle = SHA ) )
+SZA1 <- SolarZenithAngle(Latitude = -31.95, SolarDeclination = dec, SolarHourAngle = SHA)
+
+UnitInterval = '60-minute'
+LST2 <- t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365)))), DaylightSavingsTime = FALSE, UnitInterval = '60-minute' )
+SZA2 <- SolarZenithAngle2( Latitude = -31.95, SolarDeclination = dec, SolarAngle(LocalSolarTime = LST2, UnitInterval = UnitInterval))
+
+AirMass( SolarZenithAngle= SZA )[1:48]
+AirMass( SolarZenithAngle = SZA2 )[6:19] 
+
+plot(AirMass( SolarZenithAngle = SZA2 )[1:365], type = 'l')

@@ -9,18 +9,19 @@ t_sol <- function( TimeCorrection, DaylightSavingsTime = FALSE ){
   # TimeCorrection (TC) is a series consisting of each day's time correction between
   # the longitude of a given site and the standard meridian (local time zone)
   
-  hours = seq( from = 0, to = length(TimeCorrection) - 1 ) %% 24 
+  hours = seq( from = 1, to = length(TimeCorrection) ) %% 24 
   
-  TCbyHour <- rep(TimeCorrection, each = 24)
+  # TCbyHour <- rep(TimeCorrection, each = 24)
   
   t_solar = if(DaylightSavingsTime)
   {
-    hours + (TCbyHour - 60)/60
+    hours + (TimeCorrection - 60)/60
   } else {
-    hours + TCbyHour/60
+    hours + TimeCorrection/60
   }
   
   return( t_solar )
+  # unit of measurement: hour
 }
 
 t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE)
