@@ -39,15 +39,15 @@ t_sol2 <- function( TimeCorrection, DaylightSavingsTime = FALSE, UnitInterval = 
   return( t_solar )
 }
 
-t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '60-minute' )[1]
-
-# test: local solar time should be the same across time divisions
-t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '1-minute' )[1]/60
-t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '5-minute' )[1]/12
-t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '15-minute' )[1]/4
-t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '30-minute' )[1]/2
-
-t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = TRUE, UnitInterval = '30-minute' )[1]/2
-
+# t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '60-minute' )[1]
+# 
+# # test: local solar time should be the same across time divisions
+# t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '1-minute' )[1]/60
+# t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '5-minute' )[1]/12
+# t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '15-minute' )[1]/4
+# t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE, UnitInterval = '30-minute' )[1]/2
+# 
+# t_sol2(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = TRUE, UnitInterval = '30-minute' )[1]/2
+# 
 
 

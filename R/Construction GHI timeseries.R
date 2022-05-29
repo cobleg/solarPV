@@ -1,6 +1,6 @@
 
 
-# Objective: construct the GHI time series
+# Objective: construct the GHI time series with hourly intervals
 # Author: Grant Coble-Neal
 
 source('./R/Day Angle function.R')
