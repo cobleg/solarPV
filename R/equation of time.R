@@ -20,5 +20,5 @@ EoT <- function(DayAngle, parameters = c(a = 229.18, b = 7.5e-6, c = 1.868e-3,
 
 }
 
-E_T <- EoT(DayAngle(seq(1:1461), 365.25))
-plot(E_T[1:365])
+# E_T <- EoT(DayAngle(seq(1:1461), 365.25))
+# plot(E_T[1:365])

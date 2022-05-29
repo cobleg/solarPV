@@ -19,6 +19,7 @@ I_n <- function( Interval = '60-minute')
   I_n <- rep(I_on, each = td)
   return(I_n)
 }
-timeframe <- I_n(Interval = '60-minute')
 
-plot(I_n(Interval = '60-minute'))
+# timeframe <- I_n(Interval = '60-minute')
+# 
+# plot(I_n(Interval = '60-minute'))

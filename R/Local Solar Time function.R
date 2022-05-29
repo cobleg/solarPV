@@ -24,12 +24,12 @@ t_sol <- function( TimeCorrection, DaylightSavingsTime = FALSE ){
   # unit of measurement: hour
 }
 
-t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE)
-
-TC = TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25))))
-
-hours = seq( from = 0, to = length(TC) - 1 ) %% 24
-
-TCbyHour <- rep(TC, each = 24)
-
-hours + TCbyHour/60
+# t_sol(TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25)))), DaylightSavingsTime = FALSE)
+# 
+# TC = TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365.25))))
+# 
+# hours = seq( from = 0, to = length(TC) - 1 ) %% 24
+# 
+# TCbyHour <- rep(TC, each = 24)
+# 
+# hours + TCbyHour/60

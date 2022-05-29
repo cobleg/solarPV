@@ -15,5 +15,5 @@ TC = function( L_st, L_loc, EquationOfTime ){
   return( L_c + EquationOfTime) # units of measurement: minutes of time
 }
     
-TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365))))
+# TC(L_st = 120, L_loc = 115.86, (EoT(DayAngle(seq(1:1461), 365))))
 
