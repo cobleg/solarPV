@@ -23,7 +23,7 @@ DayAngle <-  function(timeframe = seq(from = 1, to = 365, by = 1), Interval, day
   return(B_pad)
 }
 
-dayIndex = seq(1:365)
-interval = '30-minute'
-daysInYear = 365
-dayAngle = DayAngle( timeframe = dayIndex, Interval = interval, daysInYear = daysInYear )
+# dayIndex = seq(1:365)
+# interval = '30-minute'
+# daysInYear = 365
+# dayAngle = DayAngle( timeframe = dayIndex, Interval = interval, daysInYear = daysInYear )

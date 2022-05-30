@@ -34,7 +34,6 @@ elevation = 22 # metres above sea level
 dayIndex = seq(1:365)
 daysInYear = 365
 
-dayAngle = DayAngle( timeframe = dayIndex, Interval = interval, daysInYear = daysInYear )
 GHI_clr <- data.frame(
   Interval = seq.POSIXt(start_interval, end_interval, by=increment)) %>%
   mutate(Calendar.Year = year(Interval),

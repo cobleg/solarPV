@@ -17,7 +17,7 @@ SolarDeclination <- function( DayAngle, parameters = c(a = 0.006918, b = -0.3999
   g = parameters[['g']]
   
   return( ( a + b * cos( DayAngle ) + c * sin( DayAngle ) + d * cos( 2 * DayAngle ) + e * sin( 2 * DayAngle ) + 
-            f * cos( 3 * DayAngle ) + g * sin( 3 * DayAngle ) )* 180 / pi )
+            f * cos( 3 * DayAngle ) + g * sin( 3 * DayAngle ) ) * 180 / pi )
   # units of measurement: degrees
 }
 
