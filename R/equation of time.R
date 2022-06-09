@@ -16,7 +16,9 @@ EoT <- function(DayAngle, parameters = c(a = 229.18, b = 7.5e-6, c = 1.868e-3,
   
   return( a * (b + c * cos(DayAngle) + d * sin(DayAngle) + e * cos(2 * DayAngle)
              + f * sin(2 * DayAngle)) )
+  # units of measurement: minutes
 
 }
 
-EoT(DayAngle(seq(1:1461), 365.25))
+# E_T <- EoT(DayAngle(seq(1:1461), 365.25))
+# plot(E_T[1:365])

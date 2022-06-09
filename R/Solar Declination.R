@@ -17,8 +17,10 @@ SolarDeclination <- function( DayAngle, parameters = c(a = 0.006918, b = -0.3999
   g = parameters[['g']]
   
   return( ( a + b * cos( DayAngle ) + c * sin( DayAngle ) + d * cos( 2 * DayAngle ) + e * sin( 2 * DayAngle ) + 
-            f * cos( 3 * DayAngle ) + g * sin( 3 * DayAngle ) )* 180 / pi )
+            f * cos( 3 * DayAngle ) + g * sin( 3 * DayAngle ) ) * 180 / pi )
   # units of measurement: degrees
 }
 
-SolarDeclination(DayAngle(seq(1:1461), 365.25))
+# SolarDeclination(DayAngle(seq(1:1461), 365.25))
+# 
+# plot(SolarDeclination(DayAngle(seq(1:365), 365.25)), xlab = " Day of the year",ylab = "Degrees", main = "Solar declination angle")
