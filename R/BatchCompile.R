@@ -4,11 +4,13 @@
 
 # create a batch processing file to compile CER data
 
+library(here)
+library(tidyverse)
 
-for (myYear in 2019:2019 )
+for (myYear in 2020:2020 )
   {
-  myURL <- paste0('http://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Postcode%20data%20for%20small-scale%20installations%20', myYear, '%20-%20SGU-Solar.csv')
-  
+  myURL <- paste0('https://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Postcode%20data%20for%20small-scale%20installations%20', myYear, '%20-%20SGU%20-%20Solar.csv')
+# https://www.cleanenergyregulator.gov.au/DocumentAssets/Documents/Postcode%20data%20for%20small-scale%20installations%202020%20-%20SGU%20-%20Solar.csv
   df <- read.csv(myURL)
   
   
@@ -35,5 +37,5 @@ for (myYear in 2019:2019 )
   df.3 <- cbind(df.2, dates_row.2)
   names(df.3) <- c("Postcodes", "Category", "Values", "Dates")
   
-  saveRDS(df.3, file = paste0("CER_", myYear, ".rds"))
+  saveRDS(df.3, file = paste0(here("data"), "/" , "CER_", myYear, ".rds"))
   }
