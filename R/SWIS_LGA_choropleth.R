@@ -40,4 +40,11 @@ plot(PV_LGA_June_2019["Capacity"],
      main = "New solar PV capacity installed in June 2019",
      breaks = "equal", nbreaks = 20,
      pal = hcl.colors(n = 20, palette = "Lisbon") )
-     
+
+# plot the SWIS region
+plot(LGA_SWIS, 
+     main = "SWIS region[SHAPE_AREA]",
+     breaks = "equal", nbreaks = 20,
+     pal = hcl.colors(n = 20, palette = "Lisbon") )
+
+
